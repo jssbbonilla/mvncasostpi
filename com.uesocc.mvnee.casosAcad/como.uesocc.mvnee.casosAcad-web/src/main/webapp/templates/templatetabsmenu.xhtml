@@ -2,7 +2,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
-      xmlns:h="http://xmlns.jcp.org/jsf/html">
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
 
     <h:head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -22,14 +23,10 @@
                     <div class="top-bar">
                         <nav id="menu-nav" class="linkEffects linkHoverEffect_12 nav-cont">
                             <ul>
-                                <h:link id="url1" class="scroll" outcome="pasotabsmenu"><span>Paso</span></h:link> 
-                                <h:link id="url1" class="scroll" outcome="pasotabsmenu"><span>Paso</span></h:link> 
-
-                                <h:link id="url2" class="scroll" outcome="requisitotabsmenu"><span>Requisito</span></h:link>
-                                <h:link id="url2" class="scroll" outcome="requisitotabsmenu"><span>Requisito</span></h:link>
-
+                                <a><p:link id="url1" class="scroll" outcome="pasotabsmenu"><span>Paso</span></p:link></a> 
                                 
-                                
+                                <a><p:link id="url2" class="scroll" outcome="requisitotabsmenu"><span>Requisito</span></p:link></a>
+                                                                                              
                             </ul>
                         </nav>  
                         <h1 id="topic-header" class="tituloheader"><i class="fa fa-code" aria-hidden="true"></i> Web application <i class="fa fa-desktop" aria-hidden="true"></i></h1>
